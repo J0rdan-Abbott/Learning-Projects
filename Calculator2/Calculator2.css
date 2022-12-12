@@ -59,7 +59,23 @@ button {
     font-size: 16px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
 .equal {
+    width: 115px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #fff, inset 5px 5px 12px rgba(0, 0, 0, .16);
+}
+
+.del {
+    grid-column: span 2;
     width: 115px;
     border-radius: 40px;
     background-color: #ecf0f3;
